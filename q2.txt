@@ -2,3 +2,4 @@ if a number is even or odd :
 I wrote a function to figure it out . 
 If I input a number it will check that if it can divid on 2 or not . 
 If the reminder become 0 , then it is an even  number else it is an odd number . 
+for example 6%2==0 , so this is an even number

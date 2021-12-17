@@ -4,4 +4,4 @@ If the reminder become 0 , it is a prime num else it is not prime .
 If the number is 1 , it is not prime 
 If the number is 2 then it is prime.
 And I made a function in python for it . 
- 
+for example 13 can not be divided to any numbers so it is a prime number .
