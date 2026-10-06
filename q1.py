@@ -1,7 +1,15 @@
-def isprime(num):
-    for n in range(2,int(num**1/2)+1):
-        if num%n==0:
+def is_prime(num):
+    if num < 2:
+        return False
+
+    divisor = 2
+    while divisor * divisor <= num:
+        if num % divisor == 0:
             return False
+        divisor += 1
+
     return True
-n=int(input())
-print(isprime(n))
+
+
+number = int(input("Enter an integer: "))
+print(is_prime(number))
