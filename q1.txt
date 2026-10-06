@@ -1,7 +1,3 @@
-A prime number is an integer greater than 1 that has exactly two positive divisors: 1 and itself.
+Exercise 1: Write a Python program that asks the user for an integer and reports whether it is a prime number.
 
-To check whether a number is prime, test whether any integer from 2 up to its square root divides it evenly. If one does, the number is not prime. If none does, it is prime.
-
-Numbers less than 2, including 1, are not prime. The number 2 is prime.
-
-For example, 13 is prime because no integer from 2 to its square root divides it evenly.
+A prime number is an integer greater than 1 that is divisible only by 1 and itself.
