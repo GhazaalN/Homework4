@@ -1,5 +1,5 @@
-if a number is even or odd :
-I wrote a function to figure it out . 
-If I input a number it will check that if it can divid on 2 or not . 
-If the reminder become 0 , then it is an even  number else it is an odd number . 
-for example 6%2==0 , so this is an even number
+An even integer is divisible by 2 with no remainder. An odd integer leaves a remainder of 1 when divided by 2.
+
+The program uses the remainder operator (%). If num % 2 equals 0, the function returns "even". Otherwise, it returns "odd".
+
+For example, 6 % 2 equals 0, so 6 is even. Also, -3 % 2 is not 0, so -3 is odd.
