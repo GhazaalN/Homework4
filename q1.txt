@@ -1,7 +1,7 @@
-a number is prime or not :
-first you should check if you can divide it to any numbers that is less than that number.
-If the reminder become 0 , it is a prime num else it is not prime . 
-If the number is 1 , it is not prime 
-If the number is 2 then it is prime.
-And I made a function in python for it . 
-for example 13 can not be divided to any numbers so it is a prime number .
+A prime number is an integer greater than 1 that has exactly two positive divisors: 1 and itself.
+
+To check whether a number is prime, test whether any integer from 2 up to its square root divides it evenly. If one does, the number is not prime. If none does, it is prime.
+
+Numbers less than 2, including 1, are not prime. The number 2 is prime.
+
+For example, 13 is prime because no integer from 2 to its square root divides it evenly.
